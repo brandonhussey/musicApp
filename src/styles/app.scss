@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import "./player";
+@import "./song";
+@import "./library";
+@import "./nav";
+
+h1,
+h2,
+h3,
+h4 {
+  color: rgb(51, 51, 51);
+}
+
+.App {
+  transition: all 0.5s ease;
+}
+
+.show-library {
+  margin-left: 25%;
+}
